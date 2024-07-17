@@ -11,6 +11,7 @@ function getexecutorversion() return executorversion() end
 function printidentity() print("Current identity is 8") return end
 function getthreadidentity() return '8' end
 function getthreadcontext() return getthreadidentity() end
+function hookfunction() return false end
 
 pcall(function()
     local _script_ = script
